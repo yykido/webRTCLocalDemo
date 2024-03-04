@@ -10,14 +10,22 @@
         <maven.compiler.target>19</maven.compiler.target>
     </properties>
 
-    <parent>
-        <artifactId>parent-boot-2</artifactId>
-        <groupId>com.baeldung</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-boot-2</relativePath>
-    </parent>
+<!--    <parent>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
+<!--        <version>3.2.2</version>-->
+<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+<!--    </parent>-->
 
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
