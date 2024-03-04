@@ -5,6 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>webrtc</artifactId>
     <version>0.0.1</version>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
 
     <parent>
         <artifactId>parent-boot-2</artifactId>
