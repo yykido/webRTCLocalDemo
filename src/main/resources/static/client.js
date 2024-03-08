@@ -1,6 +1,6 @@
 //connecting to our signaling server 
-// var conn = new WebSocket('ws://localhost:8080/socket');
-var conn = new WebSocket('ws://10.0.0.21:8080/socket');
+var conn = new WebSocket('ws://localhost:8080/socket');
+// var conn = new WebSocket('ws://10.0.0.21:8080/socket');
 
 
 conn.onopen = function() {
