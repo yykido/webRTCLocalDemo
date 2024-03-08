@@ -1,7 +1,12 @@
 #server:
 #  address: 10.0.0.21
 #  port: 8080
-
+#
 server:
   address: 0.0.0.0
   port: 8080
+#  ssl:
+#    key-store: classpath:keystore.p12
+#    key-store-password: stefano123
+#    key-store-type: PKCS12
+#    key-alias: localhost
